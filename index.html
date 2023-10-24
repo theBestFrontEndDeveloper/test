@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is the offecial website of Powr eSport Team" />
+  <meta name="author" content="Abdelrahman Khaled" />
+  <!-- Website Icon -->
+  <link rel="icon" href="images/logo.jpg" />
+  <!-- Font Awesome Liberary -->
+  <link rel="stylesheet" href="css/all.css" />
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- Page Font Family -->
+  <link href="https://db.onlinewebfonts.com/c/0a45bafca6581d7ffddd37c8ec705fdd?family=Sky+Bold" rel="stylesheet">
+  <title>Powr eSport | Home Page</title>
+</head>
+
+<body>
+  <!-- Start Pre-Header -->
+  <section class="pre-header">
+    <div class="container">
+      <div class="links">
+        <a href="account.html">حسابي</a>
+        <a href="check-out.html">تتبع الطلبات</a>
+        <a href="faqs.html">الدعم الفني</a>
+      </div>
+      <div class="info">
+        <div class="option">
+          <button class="selected"><span>السعودية</span> <i class="fas fa-angle-down"></i></button>
+          <ul class="drop-down country">
+            <li class="active">السعودية</li>
+            <li>الامارات</li>
+            <li>قطر</li>
+            <li>الكويت</li>
+          </ul>
+        </div>
+        <div class="option">
+          <button class="selected"><span>الريال السعودي</span> <i class="fas fa-angle-down"></i></button>
+          <ul class="drop-down currency">
+            <li class="active">الريال السعودي</li>
+            <li>الدرهم الاماراتي</li>
+            <li>الدينار القطري</li>
+            <li>الدينار الكويتي</li>
+          </ul>
+        </div>
+        <div class="option">
+          <button class="selected"><span>العربية</span> <i class="fas fa-angle-down"></i></button>
+          <ul class="drop-down language">
+            <li class="active">العربية</li>
+            <li>الأنجليزية</li>
+            <li>الفرنسية</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Pre-Header -->
+  <!-- Start Header -->
+  <header>
+    <div class="container">
+      <div class="icons">
+        <div class="icon user">
+          <a href="#"><i class="fas fa-user"></i></a>
+          <!-- Start Sign-Up Pop-Up -->
+          <div class="sign-up-pop-up">
+            <div class="icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <button class="close-pop-up"><i class="fas fa-xmark"></i></button>
+            <h3>تسجيل الدخول</h3>
+            <form action="" class="tel-form">
+              <div class="field">
+                <div class="input">
+                  <label for="un">أسم المستخدم</label>
+                  <input type="text" name="user-name" id="un" />
+                </div>
+                <p class="error"></p>
+                <p class="correct"></p>
+              </div>
+              <div class="field">
+                <div class="input">
+                  <label for="tel">رقم الجوال</label>
+                  <input type="number" name="telephone-number" id="tel" />
+                </div>
+                <p class="error"></p>
+                <p class="correct"></p>
+              </div>
+              <button type="submit">تسجيل الدخول</button>
+              <a href="#">تسجيل الدخول بأستخدام البريد الألكتروني</a>
+            </form>
+            <form action="" class="email-form">
+              <div class="field">
+                <div class="input">
+                  <label for="un2">أسم المستخدم</label>
+                  <input type="text" name="user-name" id="un2" />
+                </div>
+                <p class="error"></p>
+                <p class="correct"></p>
+              </div>
+              <div class="field">
+                <div class="input">
+                  <label for="email">البريد الألكتروني</label>
+                  <input type="text" name="email-address" id="email" />
+                </div>
+                <p class="error"></p>
+                <p class="correct"></p>
+              </div>
+              <button type="submit">تسجيل الدخول</button>
+              <a href="#">تسجيل الدخول بأستخدام رقم الجوال</a>
+            </form>
+          </div>
+          <!-- End Sign-Up Pop-Up -->
+        </div>
+        <div class="icon cart">
+          <a href="#"><i class="fas fa-shopping-bag"></i> <span>0</span></a>
+          <!-- Start Cart List -->
+          <div class="cart-list">
+            <button class="close-list"><i class="fas fa-xmark"></i></button>
+            <p class="empty-alert">سلة المنتجات خاصتك فارغة.</p>
+            <div class="cart-products"></div>
+            <div class="subtotal-price">
+              <h4>السعر الكلي</h4>
+              <span>0 ر.س</span>
+            </div>
+          </div>
+          <!-- End Cart List -->
+        </div>
+        <div class="icon heart">
+          <a href="wish-list.html"><i class="fas fa-heart"></i></a>
+        </div>
+        <div class="icon compare">
+          <a href="compare,html"><i class="fas fa-rotate"></i></a>
+        </div>
+      </div>
+      <a href="index.html" class="logo"><img src="/images/logo.jpg" alt="Logo" /></a>
+      <!-- Start Main Menu -->
+      <div class="menu-container">
+        <button class="open-menu"><i class="fas fa-bars"></i></button>
+        <div class="main-menu">
+          <div class="head">
+            <div class="icons">
+              <div class="icon heart">
+                <a href="wish-list.html"><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="icon compare">
+                <a href="compare,html"><i class="fas fa-rotate"></i></a>
+              </div>
+            </div>
+            <button class="close-menu"><i class="fas fa-xmark"></i></button>
+          </div>
+          <form action="">
+            <input type="search" name="Search-Keyword" id="search-bar" placeholder="أبحث عن منتج" />
+            <button type="submit"><i class="fas fa-magnifying-glass"></i></button>
+          </form>
+          <div class="show-options">
+            <h3 class="active">الفئات</h3>
+            <h3>الروابط</h3>
+          </div>
+          <div class="categories">
+            <a href="perfumes.html"><i class="fas fa-crown"></i> العطور</a>
+            <a href="t-shirts.html"><i class="fas fa-shirt"></i> التشيرتات</a>
+            <a href="hoodies.html"><i class="fas fa-shirt"></i> الهوديات</a>
+            <a href="pants.html"><i class="fas fa-crown"></i> القطع السفلية</a>
+            <a href="accessories.html"><i class="fas fa-ring"></i> الأكسسوارات</a>
+          </div>
+          <div class="links">
+            <a href="index.html">الرئيسية</a>
+            <a href="about.html">عن باور</a>
+            <a href="faqs.html">الأسئلة الشائعة</a>
+            <a href="jerseies.html">جيرسي باور الرسمي <i class="fas fa-angle-left"></i></a>
+            <a href="cc-products.html">منتجات أعضاء الفريق <i class="fas fa-angle-left"></i></a>
+            <a href="contact.html">تواصل معنا</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Main Menu -->
+      <form action="">
+        <input type="search" name="Search-Keyword" id="search-bar" placeholder="أبحث عن منتج" />
+        <button type="submit">بحث</button>
+      </form>
+    </div>
+  </header>
+  <!-- End Header -->
+  <!-- Start Nav -->
+  <nav>
+    <div class="container">
+      <div class="categories">
+        <button>الفئات <i class="fas fa-angle-down"></i></button>
+        <ul class="categories-list">
+          <li><a href="perfumes.html"><i class="fas fa-crown"></i> العطور</a></li>
+          <li><a href="t-shirts.html"><i class="fas fa-shirt"></i> التشيرتات</a></li>
+          <li><a href="hoodies.html"><i class="fas fa-shirt"></i> الهوديات</a></li>
+          <li><a href="pants.html"><i class="fas fa-crown"></i> القطع السفلية</a></li>
+          <li><a href="accessories.html"><i class="fas fa-ring"></i> الأكسسوارات</a></li>
+        </ul>
+      </div>
+      <ul class="main-nav">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">عن باور</a></li>
+        <li><a href="faqs.html">الأسئلة الشائعة</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+      <a href="cc-prodcucts.html" class="influencers-btn">منتجات شباب الفريق <i class="fas fa-angle-left"></i></a>
+    </div>
+  </nav>
+  <!-- End Nav -->
+  <!-- Start Light-Dark Mode Btn -->
+  <button id="light-dark-toggle">
+    <i class="fas fa-sun"></i>
+    <span></span>
+    <i class="fas fa-moon"></i>
+  </button>
+  <!-- End Light-Dark Mode Btn -->
+  <!-- Start Scroll To Top Btn -->
+  <button id="scroll-to-top-btn"><i class="fas fa-angle-up"></i></button>
+  <!-- End Scroll To Top Btn -->
+  <!-- Start Banners Section -->
+  <section class="banners">
+    <div class="container">
+      <a href="#new-shirts" class="banner full-width">
+        <img src="images/banners/b-5.jpg" alt="POWR New T-Shirts" title="تيشرتات بتور الجديدة" />
+      </a>
+      <a href="#" class="banner"><img src="images/banners/b-8.jpg" alt="Powr Jersy" title="جيرسي باور الرسمي" /></a>
+      <a href="#" class="banner"><img src="images/banners/b-7.jpg" alt="E4N Perfume" title="عطر E4N" /></a>
+    </div>
+  </section>
+  <!-- End Banners Section -->
+  <!-- Start Features Section -->
+  <section class="features">
+    <div class="container">
+      <div class="features-content">
+        <div class="box">
+          <i class="fas fa-rotate"></i>
+          <div class="text">
+            <h3>ارجاع مجاني</h3>
+            <p>
+              أرجع المنتج لو لم يعجبك في غضون 15 يوم.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-shield-halved"></i>
+          <div class="text">
+            <h3>دفع امن</h3>
+            <p>
+              100% دفع أونلاين امن.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trophy"></i>
+          <div class="text">
+            <h3>منتجات عالية الجودة</h3>
+            <p>
+              أشتري أفضل المنتجات ذات الجودة العالية بسعر مناسب.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-headset"></i>
+          <div class="text">
+            <h3>أفضل خدمة عملاء</h3>
+            <p>
+              خدمة عملاء لمدة 7 أيام علي مدار 24 ساعة.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Features Section -->
+  <!-- Start Influencers Section -->
+  <section class="influencers">
+    <div class="container">
+      <div class="section-header">
+        <h2>المؤثرون</h2>
+        <a href="cc-products" class="arrow" title="منتجات شباب الفريق"><i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="influencers-content">
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-1.jpg" alt="SXB" title="SXB" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-2.jpg" alt="FRL" title="FRL" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-3.jpg" alt="C7" title="C7" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-4.jpg" alt="ROB" title="ROB" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-5.jpg" alt="IBRA" title="IBRA" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-6.jpg" alt="Saud Cast" title="Saud Cast" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-7.jpg" alt="MD10" title="MD10" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-8.jpg" alt="Suhaib" title="Suhaib" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-9.jpg" alt="FRS" title="FRS" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-10.jpg" alt="Glory" title="Glory" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-11.jpg" alt="Blue" title="Blue" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-12.jpg" alt="PZX" title="PZX" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-13.jpg" alt="E4N" title="E4N" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-14.jpg" alt="VRS" title="VRS" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-15.jpg" alt="kamsteka" title="كمستكا" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-16.jpg" alt="RR" title="RR" />
+        </a>
+        <a href="cc-products" class="image">
+          <img src="images/influencers/i-17.jpg" alt="B7" title="B7" />
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- End Influencers Section -->
+  <!-- Start Products Section -->
+  <section class="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>العطور</h2>
+        <a href="perfumes.html" title="جميع العطور" class="arrow"><i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="products-content">
+        <div class="product sold-out">
+          <a href="#" class="image">
+            <img src="images/perfumes/p-13.jpg" alt="E4N Perfume" title="عطر E4N" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">عطر E4N</a>
+            <div class="price">
+              <span class="new">360 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product sold-out">
+          <a href="#" class="image">
+            <img src="images/perfumes/p-2.jpg" alt="Maksora Perfume" title="عطر مكسورة" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">عطر مكسورة</a>
+            <div class="price">
+              <span class="old">420 ر.س</span>
+              <span class="new">360 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/perfumes/p-4.jpg" alt="Alone Perfume" title="عطر Alone" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">عطر Alone</a>
+            <div class="price">
+              <span class="old">420 ر.س</span>
+              <span class="new">360 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/perfumes/p-3.jpg" alt="Dream Up Perfume" title="عطر Dream Up" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">عطر Dream Up</a>
+            <div class="price">
+              <span class="new">380 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product sold-out">
+          <a href="#" class="image">
+            <img src="images/perfumes/p-10.jpg" alt="Powr Perfume" title="عطر Powr" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">عطر Powr</a>
+            <div class="price">
+              <span class="old">480 ر.س</span>
+              <span class="new">240 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Products Section -->
+  <!-- Start Products Section -->
+  <section class="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>التشيرتات</h2>
+        <a href="perfumes.html" title="جميع التشيرتات" class="arrow"><i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="products-content">
+        <div class="product sold-out">
+          <a href="#" class="image">
+            <img src="images/t-shirts/t-1.jpg" alt="SXB Black T-shirt" title="تيشرت SXB - أسود" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">تيشرت SXB - أسود</a>
+            <div class="price">
+              <span class="new">530 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/t-shirts/t-4.jpg" alt="Suhaib T-shirt" title="تيشرت Suhaib" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">تيشرت Suhaib</a>
+            <div class="price">
+              <span class="old">530 ر.س</span>
+              <span class="new">460 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/t-shirts/t-7.jpg" alt="Powr Foundation - White" title="Powr Foundation - White" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">Powr Foundation - White</a>
+            <div class="price">
+              <span class="new">560 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/t-shirts/t-9.jpg" alt="ROB Blue T-shirt" title="تيشرت ROB - أزرق" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">تيشرت ROB - أزرق</a>
+            <div class="price">
+              <span class="new">510 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product sold-out">
+          <a href="#" class="image">
+            <img src="images/t-shirts/t-10.jpg" alt="E4N T-shirt" title="تيشرت E4N" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">تيشرت E4N</a>
+            <div class="price">
+              <span class="old">560 ر.س</span>
+              <span class="new">500 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Products Section -->
+  <!-- Start Banners Section -->
+  <section class="banners">
+    <div class="container">
+      <a href="#" class="banner full-width">
+        <img src="images/banners/b-4.jpg" alt="Powr Collection" title="صوت لأفضل عطر" />
+      </a>
+    </div>
+  </section>
+  <!-- End Banners Section -->
+  <!-- Start Products Section -->
+  <section class="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>الهوديات</h2>
+        <a href="hoodies.html" title="جميع الهوديات" class="arrow"><i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="products-content">
+        <div class="product sold-out">
+          <a href="#" class="image">
+            <img src="images/hoodies/h-1.jpg" alt="C7 Hoodie" title="هودي C7" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">هودي C7</a>
+            <div class="price">
+              <span class="new">530 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product sold-out">
+          <a href="#" class="image">
+            <img src="images/hoodies/h-2.jpg" alt="RR Hoodie" title="هودي RR" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">هودي RR</a>
+            <div class="price">
+              <span class="old">580 ر.س</span>
+              <span class="new">460 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product sold-out">
+          <a href="#" class="image">
+            <img src="images/hoodies/h-3.jpg" alt="SXB - Drangon Hoodie" title="هودي SXB - نسخة التنين" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">هودي SXB - نسخة التنين</a>
+            <div class="price">
+              <span class="new">460 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/hoodies/h-11.jpg" alt="Suhaib Hoodie" title="هودي Suhaib" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">هودي Suhaib</a>
+            <div class="price">
+              <span class="new">540 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/hoodies/h-5.jpg" alt="FRL Hoodie - White" title="هودي FRL - أبيض" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">هودي FRL - أبيض</a>
+            <div class="price">
+              <span class="old">540 ر.س</span>
+              <span class="new">480 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Products Section -->
+  <!-- Start Products Section -->
+  <section class="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>POWR Offecial Jersy</h2>
+        <a href="jersies.html" title="جميع ال Jerseies" class="arrow"><i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="products-content">
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/jerseies/j-1.jpg" alt="POWR Offecial Jersy - AS" title="POWR Offecial Jersy - AS" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">POWR Offecial Jersy - AS</a>
+            <div class="price">
+              <span class="old">540 ر.س</span>
+              <span class="new">480 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/jerseies/j-2.jpg" alt="POWR Offecial Jersy - OkhaledX"
+              title="POWR Offecial Jersy - OkhaledX" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">POWR Offecial Jersy - OkhaledX</a>
+            <div class="price">
+              <span class="old">540 ر.س</span>
+              <span class="new">480 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/jerseies/j-3.jpg" alt="POWR Offecial Jersy - ROB" title="POWR Offecial Jersy - ROB" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">POWR Offecial Jersy - ROB</a>
+            <div class="price">
+              <span class="old">540 ر.س</span>
+              <span class="new">480 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/jerseies/j-4.jpg" alt="POWR Offecial Jersy - E4N" title="POWR Offecial Jersy - E4N" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">POWR Offecial Jersy - E4N</a>
+            <div class="price">
+              <span class="old">540 ر.س</span>
+              <span class="new">480 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/jerseies/j-20.jpg" alt="POWR Offecial Jersy - SXB" title="POWR Offecial Jersy - SXB" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">POWR Offecial Jersy - SXB</a>
+            <div class="price">
+              <span class="old">540 ر.س</span>
+              <span class="new">480 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Products Section -->
+  <!-- Start Products Section -->
+  <section class="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>الأكسسوارات</h2>
+        <a href="accessories.html" title="جميع الأكسسوارات" class="arrow"><i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="products-content">
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/accessories/a-1.jpg" alt="Powr Armsleeve - RED" title="Powr Armsleeve - RED" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">Powr Armsleeve - RED</a>
+            <div class="price">
+              <span class="new">86 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/accessories/a-3.jpg" alt="مطارة POWR" title="مطارة POWR" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">مطارة POWR</a>
+            <div class="price">
+              <span class="new">50 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/accessories/a-19.jpg" alt="بروش مغناطيس Suhaib" title="بروش مغناطيس Suhaib" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">بروش مغناطيس Suhaib</a>
+            <div class="price">
+              <span class="new">17 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#" class="image">
+            <img src="images/accessories/a-13.jpg" alt="POWR Mouse Pad" title="POWR Mouse Pad" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">POWR Mouse Pad</a>
+            <div class="price">
+              <span class="new">67 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+        <div class="product sold-out">
+          <a href="#" class="image">
+            <img src="images/accessories/a-18.jpg" alt="استيكرات Saud Cast" title="استيكرات Saud Cast" />
+          </a>
+          <div class="options">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-rotate"></i></a>
+          </div>
+          <div class="details">
+            <a href="#" class="product-title">استيكرات Saud Cast</a>
+            <div class="price">
+              <span class="new">8 ر.س</span>
+            </div>
+            <button class="main-btn"><i class="fas fa-shopping-bag"></i> أضف للسلة</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Products Section -->
+  <!-- Start Banners Section -->
+  <section class="banners">
+    <div class="container">
+      <a href="#" class="banner full-width">
+        <img src="images/banners/b-6.jpg" alt="Powr Gifts" title="هدايا باور" />
+      </a>
+    </div>
+  </section>
+  <!-- End Banners Section -->
+  <!-- Start Download Section -->
+  <section class="download">
+    <div class="container">
+      <div class="text">
+        <h2>تطبيق باور ستور</h2>
+        <p>
+          يمكنك الان متابعة كل ماهو مميز و جديد بالمتجر من عروض و منتجات على مدار الساعة وطوال أيام الأسبوع.
+        </p>
+        <a href="#" class="main-btn">حمل تطبيق باور ستور</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Download Section -->
+  <!-- Start Video Section -->
+  <section class="video">
+    <div class="container">
+      <iframe src="https://www.youtube.com/embed/oZQsee08p9w" title="How To Order - شرح كيفية الطلب من متجر باور"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+  </section>
+  <!-- End Video Section -->
+  <!-- Start Footer -->
+  <footer>
+    <div class="container">
+      <div class="top">
+        <h3>حساباتنا</h3>
+        <div class="follow">
+          <h4>تابع POWR eSports</h4>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.instagram.com/powr__store/?igshid=MzMyNGUyNmU2YQ%3D%3D" data-lable="انستقرام"
+                target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/powr__store?s=21&t=jyngBuJKt-fYwiKU2T6ivg" data-lable="تويتر"
+                target="_blank">
+                <i class="fab fa-x-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.snapchat.com/add/poweresports" data-lable="سناب شات" target="_blank">
+                <i class="fab fa-snapchat"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@powr_store?_t=8dsS49sy9Mf&_r=1" data-lable="تيك توك" target="_blank">
+                <i class="fab fa-tiktok"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/user/CLAnPOWR" data-lable="يوتيوب" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="col">
+          <a href="index.html" class="logo"><img src="images/logo.jpg" alt="Logo" /></a>
+          <p>
+            فريق POWER eSports من 2010 الى الأبد | حائزون على اكثر من 160 بطولة وجائزة افضل منظمة | في رحلة مع جمهورنا
+            لخلق مجال يدعم المواهب. شركة نادي القبضة الرقمية الرياضي
+          </p>
+        </div>
+        <div class="col">
+          <h3>روابط تهمك</h3>
+          <ul class="links">
+            <li><a href="check-out.html">تتبع طلبك</a></li>
+            <li><a href="faqs.html">الأسئلة الشائعة</a></li>
+            <li><a href="about.html">عن باور</a></li>
+            <li><a href="cc-products.html">منتجات صناع المحتوي</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>خدمة العملاء</h3>
+          <a class="mobile-icon" href="tel:+966555427712">
+            <i class="fas fa-mobile-screen-button"></i>
+            جوال
+          </a>
+        </div>
+        <div class="col">
+          <h3>تطبيق POWR eSports</h3>
+          <div class="download-methods">
+            <a href="#"><img src="images/appstore.jpg" alt="App Store" /></a>
+            <a href="#"><img src="images/googleplay.jpg" alt="Google Play" /></a>
+          </div>
+          <p>
+            <span>الرقم الضريبي</span>
+            311339579100003
+          </p>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="payment-gateways">
+          <span><img src="images/payment-gateways/p-1.jpg" alt="Pay Cod" /></span>
+          <span><img src="images/payment-gateways/p-2.jpg" alt="Pay Tamara" /></span>
+          <span><img src="images/payment-gateways/p-3.jpg" alt="Pay Apple Pay" /></span>
+          <span><img src="images/payment-gateways/p-4.jpg" alt="Pay STC Pay" /></span>
+          <span><img src="images/payment-gateways/p-5.jpg" alt="Pay Visa Pay" /></span>
+          <span><img src="images/payment-gateways/p-6.jpg" alt="Pay Mastercard Pay" /></span>
+          <span><img src="images/payment-gateways/p-7.jpg" alt="Pay Mada Pay" /></span>
+        </div>
+        <p>الحقوق محفوظة | 2023 POWR eSports</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <!-- Start PopUps -->
+  <div class="pop-up gift">
+    <button class="close-popup"><i class="fas fa-xmark"></i></button>
+    <img src="images/gift.jpg" alt="Gift" />
+    <div class="text">
+      <h2>هدايا باور</h2>
+      <p>
+        اهدي من تحب بقسائم هدايا باور.
+      </p>
+      <a href="#" class="main-btn">اهدي الأن</a>
+    </div>
+  </div>
+  <div class="pop-up download-app">
+    <button class="close-popup"><i class="fas fa-xmark"></i></button>
+    <div class="icon">
+      <i class="fas fa-mobile-screen-button"></i>
+    </div>
+    <h2>حمل تطبيق باور ستور الان!</h2>
+    <p>
+      يمكنك الان متابعة كل ماهو مميز و جديد بالمتجر من عروض و منتجات على مدار الساعة وطوال أيام الأسبوع.
+    </p>
+    <div class="download-methods">
+      <a href="#"><img src="images/appstore.jpg" alt="App Store" /></a>
+      <a href="#"><img src="images/googleplay.jpg" alt="Google Play" /></a>
+    </div>
+  </div>
+  <!-- End PopUps -->
+  <!-- Main js file -->
+  <script src="main.js"></script>
+</body>
+
+</html>
